@@ -2,29 +2,29 @@ var DS = DS || {};
 
 DS.Node = function(){
 
-	var value, next;
+    var value, next;
 
-	function setValue(input){
-		value = input;
-	}
+    function setValue(input){
+        value = input;
+    }
 
-	function getValue(){
-		return value;
-	}
+    function getValue(){
+        return value;
+    }
 
-	function setNext(node){
-		next = node;
-	}
+    function setNext(node){
+        next = node;
+    }
 
-	function getNext(){
-		return next;
-	}
+    function getNext(){
+        return next;
+    }
 
-	return {
-		setValue: setValue,
-		getValue: getValue,
-		setNext: setNext,
-		getNext: getNext
-	};
+    return {
+        setValue: setValue,
+        getValue: getValue,
+        setNext: setNext,
+        getNext: getNext
+    };
 
 };
